@@ -71,7 +71,7 @@ describe('Responsive Swiper Gallery Test', function () {
   });
 });
 
-describe('Gallery Display Test with Opacity', function() {
+describe('Gallery Display Test', function() {
   it('Checks if all gallery elements are present and checks opacity for non-visible elements', function() {
     
     cy.visit('http://localhost:3000');
